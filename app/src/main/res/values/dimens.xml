@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="divider_line">1px</dimen>
+    <dimen name="dp_0">0dp</dimen>
+    <dimen name="list_scrollbarSize">4dp</dimen>
+    <dimen name="dp_256">256dp</dimen>
+    <dimen name="dp_128">128dp</dimen>
+    <dimen name="dp_64">64dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_4">4dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_12">12dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_1">1dp</dimen>
+    <dimen name="dp_10">10dp</dimen>
+    <dimen name="sp_18">18sp</dimen>
+    <dimen name="sp_20">20sp</dimen>
+    <dimen name="dp_200">200dp</dimen>
+    <dimen name="dp_164">164dp</dimen>
+    <dimen name="dp_82">82dp</dimen>
+    <dimen name="dp_100">100dp</dimen>
+    <dimen name="dialog_with">320dp</dimen>
+    <dimen name="corner_radius_btn">5dp</dimen>
+</resources>

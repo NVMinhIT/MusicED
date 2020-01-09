@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3B7E8B</color>
+    <color name="colorPrimaryDark">#118392</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorBackgroundNavigation">#fafafa</color>
+    <color name="colorBackgroundBorder">#EEEEEE</color>
+    <color name="colorEditText">#EEEEEE</color>
+    <color name="colorBackGroundMain">#7E57C2</color>
+    <color name="colorSeekbar">#FFFFFF</color>
+    <color name="progresstint">#FAFAFA</color>
+</resources>

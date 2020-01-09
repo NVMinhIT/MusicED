@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/action_person"
+        android:icon="@drawable/ic_music"
+        android:enabled="true"
+        android:title="@string/canhan" />
+
+    <item
+        android:id="@+id/action_msg"
+        android:icon="@drawable/ic_chart"
+        android:enabled="true"
+        android:title="@string/bangxephang" />
+
+    <item
+        android:id="@+id/action_friend"
+        android:icon="@drawable/ic_theme"
+        android:enabled="true"
+        android:title="@string/chude" />
+    <item
+        android:id="@+id/action_video"
+        android:icon="@drawable/ic_video"
+        android:enabled="true"
+        android:title="@string/video" />
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_bell"
+        android:enabled="true"
+        android:title="@string/thongbao" />
+</menu>

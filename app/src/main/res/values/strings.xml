@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MusicED</string>
+    <string name="thuvien">THƯ VIỆN</string>
+    <string name="baihat">Bài hát</string>
+    <string name="canhan">Cá nhân</string>
+    <string name="bangxephang">Bảng xếp hạng</string>
+    <string name="chude">Chủ đề</string>
+    <string name="video">Video</string>
+    <string name="thongbao">Thông báo</string>
+    <string name="boloc">Bộ lọc</string>
+    <string name="textstart">00:00</string>
+    <string name="textend">04:58</string>
+    <string name="lyric">Lời bài hát: Từng YêuNhạc sĩ:
+Có kí ức nào đẹp hơn ngày đôi ta bắt đầu
+Có đớn đau nào nặng hơn ngày mình xa nhau
+Có đôi mắt nào buồn hơn bờ mi em tuôn sầu
+Có đắng cay nào bằng em vội vàng qua mau
+Người đàn ông đang đi bên em là người như thế nào
+Sợ người ta không yêu thương em anh biết phải làm sao</string>
+</resources>
