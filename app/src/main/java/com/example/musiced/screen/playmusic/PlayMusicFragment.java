@@ -225,7 +225,6 @@ public class PlayMusicFragment extends Fragment implements ViewPager.OnPageChang
                 resumeOrPause();
             }
         });
-
         imNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
