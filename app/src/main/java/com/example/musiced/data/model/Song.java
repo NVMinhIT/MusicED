@@ -2,8 +2,6 @@ package com.example.musiced.data.model;
 
 
 import android.os.Parcel;
-import android.os.Parcelable;
-
 import java.io.Serializable;
 
 public class Song implements Serializable {
@@ -32,6 +30,8 @@ public class Song implements Serializable {
         pathSong = in.readString();
         DurationSong = in.readInt();
     }
+
+
 
 
     public int getSongId() {
@@ -73,6 +73,9 @@ public class Song implements Serializable {
     public void setDurationSong(int durationSong) {
         DurationSong = durationSong;
     }
+
+
+
 
 
 }
