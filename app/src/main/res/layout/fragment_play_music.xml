@@ -26,7 +26,7 @@
             tools:ignore="ContentDescription" />
 
         <ImageButton
-            android:id="@+id/imagebutton_alarm"
+            android:id="@+id/imbClock"
             android:layout_width="22dp"
             android:layout_height="22dp"
             android:layout_marginTop="15dp"

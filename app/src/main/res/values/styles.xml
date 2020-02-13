@@ -7,7 +7,12 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
+    <style name="BottomNavigationView" parent="@style/TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">10sp</item>
+    </style>
+    <style name="SCBSwitch" parent="Theme.AppCompat.Light">
+        <item name="colorControlActivated">#118392</item>
+    </style>
     <!--<style name="CustomTabLayout" parent="Widget.Design.TabLayout">-->
         <!--<item name="tabIndicatorColor">@android:color/transparent</item>-->
 

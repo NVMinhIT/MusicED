@@ -17,4 +17,10 @@ Có đôi mắt nào buồn hơn bờ mi em tuôn sầu
 Có đắng cay nào bằng em vội vàng qua mau
 Người đàn ông đang đi bên em là người như thế nào
 Sợ người ta không yêu thương em anh biết phải làm sao</string>
+    <string name="timer">Hẹn giờ tắt</string>
+    <string name="_15">15\'</string>
+    <string name="_30">30\'</string>
+    <string name="_60">60\'</string>
+    <string name="_120">120\'</string>
+    <string name="nh_p_s_ph_t">Nhập số phút</string>
 </resources>

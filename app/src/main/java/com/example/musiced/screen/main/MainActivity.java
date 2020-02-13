@@ -61,8 +61,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
 
             case R.id.action_video:
-                navigator.addFragment(R.id.content_main, VideoFragment.newInstance(),
-                        false,Navigator.NavigateAnim.FADED,VideoFragment.TAG);
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+                    navigator.addFragment(R.id.content_main, VideoFragment.newInstance(),
+                            false,Navigator.NavigateAnim.FADED,VideoFragment.TAG);
+                }
             default:
         }
     }

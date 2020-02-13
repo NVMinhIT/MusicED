@@ -29,19 +29,17 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.example.musiced.R;
 import com.example.musiced.data.model.PreferenceManager;
 import com.example.musiced.data.model.Song;
 import com.example.musiced.notification.MusicNotification;
+import com.example.musiced.screen.dialog.TimerFragmentDialog;
 import com.example.musiced.screen.listsong.SongActivity;
 import com.example.musiced.screen.playmusic.playimage.PlayAnimationFragment;
 import com.example.musiced.screen.playmusic.tracklist.ListTrackFragment;
-import com.example.musiced.screen.playvideo.VideoFragment;
 import com.example.musiced.service.MusicService;
 import com.example.musiced.utils.navigator.Equazil;
-import com.example.musiced.utils.navigator.Injection;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -52,6 +50,7 @@ import java.util.Objects;
 public class PlayMusicFragment extends Fragment implements ViewPager.OnPageChangeListener {
     public static final String TAG = "PlayMusicFragment";
     public TextView tvNameSong, tvNameSinger;
+    private static final int TARGET_FRAGMENT_REQUEST_CODE = 1;
     TextView tvStart, tvLast;
     ImageButton imShuffle, imPre, imPlay, imNext, imRepeat;
     SeekBar seekbar;
@@ -76,6 +75,7 @@ public class PlayMusicFragment extends Fragment implements ViewPager.OnPageChang
     private PlayMusicAdapter playMusicAdapter;
     private ImageView[] mDotsView;
     private ViewPager mViewPager;
+    private ImageButton imbClock;
 
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
@@ -213,6 +213,16 @@ public class PlayMusicFragment extends Fragment implements ViewPager.OnPageChang
     }
 
     public void checkEvent() {
+        imbClock.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                TimerFragmentDialog timerFragmentDialog = new TimerFragmentDialog();
+                timerFragmentDialog.setTargetFragment(PlayMusicFragment.this, TARGET_FRAGMENT_REQUEST_CODE);
+                if (getFragmentManager() != null) {
+                    timerFragmentDialog.show(getFragmentManager(), TimerFragmentDialog.TAG);
+                }
+            }
+        });
         imRepeat.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -337,6 +347,7 @@ public class PlayMusicFragment extends Fragment implements ViewPager.OnPageChang
     }
 
     private void initView(View view) {
+        imbClock = view.findViewById(R.id.imbClock);
         playMusicAdapter = new PlayMusicAdapter(getChildFragmentManager());
         mSliderDots = view.findViewById(R.id.slider_dots);
         tvStart = view.findViewById(R.id.text_view_start);

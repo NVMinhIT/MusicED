@@ -22,6 +22,6 @@
     <dimen name="dp_164">164dp</dimen>
     <dimen name="dp_82">82dp</dimen>
     <dimen name="dp_100">100dp</dimen>
-    <dimen name="dialog_with">320dp</dimen>
+    <dimen name="dialog_with">370dp</dimen>
     <dimen name="corner_radius_btn">5dp</dimen>
 </resources>

@@ -95,6 +95,8 @@
         android:layout_height="@dimen/dp_56"
         app:itemBackground="@color/colorBackgroundNavigation"
         app:labelVisibilityMode="labeled"
+        app:itemTextAppearanceActive="@style/BottomNavigationView"
+        android:layout_gravity="bottom"
         android:fitsSystemWindows="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
